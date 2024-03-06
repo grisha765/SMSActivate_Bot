@@ -32,6 +32,13 @@ venv/bin/python3 main.py -t API_TOKEN
 3. Alerts user with sound notifications upon successful registration or failure.
 4. Automatically retries in case of number blocking or failure to receive SMS.
 
+### Usage
+
+1. Run the script with your API token as an argument.
+2. The bot will continuously obtain phone numbers and attempt to receive SMS for verification.
+3. It handles situations such as number blocking and failure to receive SMS automatically.
+4. Upon successful SMS verification, the script outputs the received SMS.
+
 ### Note
 
 1. Ensure you have sufficient balance in your SMSActivateAPI account for purchasing virtual phone numbers and receiving SMS.
