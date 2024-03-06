@@ -7,7 +7,6 @@ parser = ArgumentParser(description='Бот для регистрации с п�
 parser.add_argument('-t', '--token', type=str, help='Токен SMSActivateAPI.')
 if not args.token:
     parser.error('Аргумент токена является обязательным. (-t TOKEN или --token TOKEN), --help для дополнительной информации.')
-
 API_KEY = args.token
 sa = SMSActivateAPI(API_KEY)
 os.system("paplay /usr/share/sounds/freedesktop/stereo/power-plug.oga")
